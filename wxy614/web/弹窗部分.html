@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="tanchuang.css">
+    </head>
+    <body>
+
+
+    <div class="弹窗">
+
+
+            <button id="关闭">&times;</button>
+            <h1> 10个濒危物种面对支离破碎的生存</h1>
+          <p> 
+                他们分享自己的挣扎，团结和奋斗
+                探索自然界的脆弱奇迹，一起了解濒危物种
+				他们不仅是自然界的宝贵财富，更是我们人类的朋友
+				靠近他们，了解他们的声音
+	        <span style="color: rgba(236,39,39,1); font-size: 24px;">PS：可以通过点击箭头切换动物</span> </p>
+			
+
+
+            <a href="endangered.html">了解更多</a>
+      </div>
+		<style>
+			.弹窗 {
+				white-space: pre-line;
+		}
+		</style>
+    <script>                
+			 window.addEventListener("load",function(){setTimeout(functionopen(event){                            document.querySelector(".弹窗").style.display ="flex";},500)});               document.querySelector("#关闭").addEventListener("click",function(){                document.querySelector(".弹窗").style.display ="none";});</script>
+    </body>
+</html>
